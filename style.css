@@ -34,6 +34,27 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.tableDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-collapse: separate;
+    width: 80%;
+    border:2px solid black;
+}
+
+th, td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border:2px solid rgb(131,58,180);
+    padding: 8px;
+}
+
 .bodyMain h1{
     text-align: center;
     color:red;
